@@ -24,12 +24,13 @@ Feature: Sign up form
    	When I navigate to the sign up page
    	Then the already have an account details are displayed
 
-  @wip 	
+  @complete	
   Scenario: Successful sign up
   	Given I navigate to the sign up page
   	When I enter valid sign up details
   	Then the home page is displayed
   	And login is no longer displayed in the header
+    And "Account" to be displayed in the header
 
   Scenario: Sign up with very long email address
   Scenario: Sign up with 6 charters  password
