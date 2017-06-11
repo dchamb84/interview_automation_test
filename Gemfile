@@ -11,4 +11,5 @@ gem 'require_all', '~> 1.4'
 gem 'headless'
 gem 'faker'
 gem 'chromedriver-helper'
+gem 'headless'
 
