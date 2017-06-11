@@ -6,6 +6,7 @@ require 'cucumber/rake/task'
 require 'pry'
 require 'require_all'
 require 'headless'
+require 'faker'
 
 require_all './lib/app.rb'
 require_all './lib/page/*.rb'

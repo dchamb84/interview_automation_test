@@ -9,4 +9,6 @@ gem 'rspec-expectations'
 gem 'pry'
 gem 'require_all', '~> 1.4'
 gem 'headless'
+gem 'faker'
+gem 'chromedriver-helper'
 
