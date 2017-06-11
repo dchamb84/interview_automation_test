@@ -8,6 +8,7 @@ Feature: Sign up form
   	When I navigate to the sign up page
   	Then the sign up form is displayed
 
+  @incomplete  
   Scenario: Sign up fields and button are displayed
   	When I navigate to the sign up page
   	Then the email address field is displayed on the sign up page
@@ -15,11 +16,13 @@ Feature: Sign up form
   	And the postcode field is displayed on the sign up page
   	And the sign up button is displayed on the sign up page
 
+  @incomplete
   Scenario: Special offers text and box are displayed
   	When I navigate to the sign up page
   	Then the special offers text is displyed
   	And the special offers is selected
 
+  @incomplete  
   Scenario: Already have account details are displayed
    	When I navigate to the sign up page
    	Then the already have an account details are displayed
